@@ -8,6 +8,7 @@ const ExpenseItem = (props) => {
 
     const clickHandler = () => {
         title = "Updated";
+    };
     return (
         <Card className="expense-item">
             <ExpenseDate date={props.date} />
